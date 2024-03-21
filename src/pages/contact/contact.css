@@ -117,7 +117,7 @@ label {
         background-image: url("../../assets/images/dark-denim-blue-plain-color-v56r6evrqr0q7fse.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 650px;
+        height: 100%;
         width: 100%;
     }
 
@@ -129,11 +129,11 @@ label {
 
     .contact {
 
-        height: 400px;
+        height: 350px;
         width: 250px;
         margin-left: 15%;
         border: 2px solid white;
-
+margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -144,7 +144,7 @@ label {
 
     label {
         background-color: lightsalmon;
-        width: 200px;
+        width: 230px;
         height: 60px;
         text-align: center;
         display: flex;

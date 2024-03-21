@@ -136,6 +136,7 @@ li {
 
     .newhome-overall {
         width: 100%;
+        height: 100vh auto;
         background-image: none;
         background-size: contain;
         background-position: unset;
@@ -243,7 +244,7 @@ li {
 }
 
 .newicons {
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
     display: flex;
     gap: 20px;
@@ -253,7 +254,7 @@ li {
     color: blue;
     background-color: white;
     border-radius: 30px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 }
 
@@ -261,7 +262,7 @@ li {
     color: purple;
     background-color: white;
     border-radius: 50px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 
 }
@@ -270,7 +271,7 @@ li {
     color: blue;
     background-color: white;
     border-radius: 30px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 }
 
@@ -278,7 +279,7 @@ li {
     color: red;
     background-color: white;
     border-radius: 30px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 }
 
