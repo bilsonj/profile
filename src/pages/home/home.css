@@ -1,0 +1,313 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.intro{
+    color: orange;
+    padding: 30px 0px 0px 30px;
+}
+li{
+    list-style: none;
+    color: orange;
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 200px;
+    border-right: 2px solid orange;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    cursor: pointer;
+    /* background-color: black; */
+
+}
+.continer{
+    display: flex;
+}
+.content {
+    left: 17%;
+    /* position: absolute; */
+    top: 10%;
+    
+}
+.content p {
+    /* padding-top: 10%; */
+    line-height: 3;
+    
+}
+.content h1 {
+    padding-top: 20%;
+}
+.heading{
+    color: white;
+    font-weight: bolder;
+}
+.name{
+    color: blue;
+    font-size: 50px;
+  
+}
+.para{
+    color: blue;
+    font-weight: bolder;
+
+}
+.sentance{
+    color: white;
+    font-weight: bolder;
+}
+.sentanc{
+    color: white;
+    font-weight: bolder;
+}
+.profile{
+    width: 500px;
+    height: 520px;
+   position: absolute;
+   top: 20%;
+   left: 70%;
+    
+    
+}
+.from{
+    color:white;
+}
+.native{
+    color: orange;
+}
+ .icons1,.icons2,.icons3,.icons4{
+  font-size: 50px;
+  margin-top: 20px;
+  /* padding-left: 6px; */
+  margin-left: 10px;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  
+
+}
+.icons1{
+    color: blue;
+    
+}
+.icons2{
+    color: purple;
+}
+.icons3{
+    color: blue;
+}
+.icons4{
+    color: red;
+
+
+}
+.join{
+    width: 250px;
+    font-size: x-large;
+    
+    height: 50px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+}
+.overall-home{
+    background-image: url("../../assets/images/toilet-paper-4974461_1280.jpg");
+    object-fit: contain;
+    height: 650px;
+    width: 100%;
+    /* width: fit-content ; */
+    /* position: relative; */
+
+}
+.reactpic{
+    /* position: absolute; */
+    /* width: 50px;
+    height: 50px; */
+    /* top: 77%;
+    left: 60%; */
+    margin-left: 180px;
+    height: 60px;
+    width: 60px;
+    visibility: hidden;
+}
+.csspic{
+    /* position: absolute; */
+    /* width: 50px;
+    height: 50px; */
+    /* top: 10%;
+    left: 55%; */
+    /* margin-top: 20%;
+    margin-left: 65%; */
+    height: 60px;
+    width: 60px;
+    visibility: hidden;
+    
+}
+.js{
+    /* position: absolute; */
+    /* width: 50px;
+    height: 50px; */
+    /* top: 33%;
+    left: 67%; */
+    /* margin-top: 20%;
+    margin-left: 30%; */
+    /* height: 60px;
+    width: 60px;
+    padding-top: 140px; */
+    visibility: hidden;
+
+}
+.htmlpic{
+    /* position: absolute; */
+    /* width: 50px;
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 50%; */
+    height: 60px;
+    width: 60px;
+    margin-left: 180px;
+    margin-top: 70px;
+visibility: hidden;
+}
+.image{
+    /* display: flex;
+    flex-direction: column;
+    margin-top: -40%; */
+    height: 20px;
+    width: 20px;
+}
+.content{
+    margin-left: 4%;
+}
+@media  screen and (min-width: 300px) and (max-width:500px) {
+   
+      .navbar{
+        display: flex;
+        flex-direction: row;
+        border: none;
+      }
+      li{
+        font-size: small;
+        padding: 4px;
+      }
+      .content{
+        font-size: medium;
+       
+      }
+      .heading{
+        margin-top: 30px;
+        margin-left: -180px;
+        font-size: small;
+      }
+      .name{
+        font-size: 30px;
+      }
+      /* .name{
+        font-size: medium;
+      } */
+      .content{
+        margin-top: 30px;
+        flex-wrap: wrap;
+      }
+      .icons1,.icons2,.icons3,.icons4{
+        height: 40px;
+        width: 40px;
+      }
+      .content p{
+        /* margin-top: 30px; */
+        margin-left: -180px;
+        font-size: 10px;
+        flex-wrap: wrap;
+      }
+      .profile{
+        visibility: hidden;
+      }
+      .intro{
+        font-size: small;
+      }
+      .icons1{
+        margin-left: -180px;
+        font-size: medium;
+      }
+      .join{
+        margin-left: -180px;
+        height: 40px;
+        width: 200px;
+      }
+      .overall-home{
+        background-image: url("../../assets/images/toilet-paper-4974461_1280.jpg");
+        object-fit: contain;
+        height: 100%;
+        width: 150%;
+}
+}
+@media  screen and (min-width: 500px) and (max-width:800px) {
+
+
+}
+@media screen and (min-width:800px) and (max-width:1200px){
+.overall-home{
+    width: 1024px;
+    height: 784px;
+}
+.navbar{
+    height: 680px;
+}
+.name{
+    font-size: 40px;
+}
+.csspic{
+    left: 55%;
+    top: 90%;
+}
+.js{
+    left: 30%;
+    top: 90%;
+}
+.profile{
+    position: absolute;
+    top:20%;
+    /* right: 5%; */
+    width: 450px;
+    height: 385px;
+    margin-left: 42%;
+    /* margin-top: %; */
+    margin-right: 60%;
+    left: -10%;
+
+    background-size: cover;
+    visibility: visible;
+}
+.content p{
+    font-size: small;
+}
+.join{
+    width: 440px;
+    margin-top: 40px;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 1%;
+}
+.htmlpic{
+    left: 30%;
+    top: 78%;
+}
+.reactpic{
+    left: 55%;
+    top: 78%;
+}
+} 
+
+
+
