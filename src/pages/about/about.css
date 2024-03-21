@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.about-overall{
+    background-image: url("../../assets/images/dark-denim-blue-plain-color-v56r6evrqr0q7fse.jpg"); 
+     height: 100vh;
+    background-size: 100px 50px;
+background-repeat: no-repeat;
+    background-size: cover;
+width: 100%;
+/* background-color: rgb(59, 50, 82);
+display:-ms-inline-grid; */
+height: auto;
+    /* flex-wrap: wrap; */
+}
+.about-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    font-size: 30px;
+    color: white;
+    flex-wrap: wrap;
+}
+.aboutcolor{
+    color: white;
+}
+.level{
+    color: orangered;
+}
+.levels{
+    display: flex;
+gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.htmllevel,.csslevel,.jslevel,.reactlevel{
+    display: flex;
+    height: 30px;
+
+    
+   
+}
+
+.cssbtn {
+    width: 150px;
+    background:linear-gradient(to right, blue 80%,pink 20%);
+    
+    background-position: right;
+    margin-top: 20px;
+    border: none;
+    margin-left: 30px;
+}
+.reactbtn{
+    width: 150px;
+    background:linear-gradient(to right, rgb(26, 112, 161) 60%,pink 20%);
+    margin-left: 30px;
+    background-position: right;
+    margin-top: 20px;
+    border: none;
+}
+.jsbtn{
+    width: 150px;
+    background:linear-gradient(to right, yellow 70%,pink 20%);
+    margin-left: 30px;
+    background-position: right;
+    margin-top: 20px;
+    border: none;
+}
+.htmlbtn{
+    width: 150px;
+    background:linear-gradient(to right,orange 80%,pink 20%);
+    margin-left: 30px;
+    background-position: right;
+    margin-top: 20px;
+    border: none;
+}
+.aboutcontent{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.hire{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    margin-top: 30px;
+    border-radius: 50px;
+    color: white;
+}
+.photos{
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    margin-top: 10px;
+ 
+}
+.aboutimg{
+    height: 400px;
+    width: 50%;
+    object-fit: contain;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 300px) and (max-width:500px) {
+    .aboutimg{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        gap: 10px;
+        object-fit: contain;
+        flex-wrap: wrap;
+    }
+}
+
