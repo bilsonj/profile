@@ -10,10 +10,7 @@ import Jsnewpic from '../assets/images/png-clipart-javascript-logo-computer-icon
 import Htnlnewpic from "../assets/images/732212-removebg-preview.png";
 import Cssnewpic from "../assets/images/download-removebg-preview (1).png";
 import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
-import { FiAlertCircle } from "react-icons/fi";
-import { GiSkills } from "react-icons/gi";
-import { IoMdContact } from "react-icons/io";
+
 function Newhome() {
     return (
         <div className="newhome-overall">
