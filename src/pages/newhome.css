@@ -17,6 +17,32 @@
 
 }
 
+.new-content{
+position: absolute;
+top: 20%;
+left: 10%;
+}
+.animationimg{
+    position: absolute;
+top: 20%;
+left: 40%;
+}
+.newbar{
+    /* padding-left:  60px; */
+    /* position: absolute; */
+    margin-left: 10%;
+    color: orangered;
+    font-weight: bolder;
+    
+    /* gap: 50px; */
+    /* top: 10%; */
+    /* left: 50%; */
+}
+.link{
+    text-decoration: none;
+}
+
+
 .animationimg {
     margin: 50px;
     display: flex;
@@ -59,8 +85,11 @@
     padding: 30px;
 
 }
+.newicons{
 
-nav {
+}
+
+/* .nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,6 +97,15 @@ nav {
     padding: 50px;
     width: 200px;
     border-right: 2px solid orangered;
+} */
+.bar{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 50px;
+    border-right:2px solid orangered;
+    width: 100px;
 }
 
 li {
@@ -79,7 +117,7 @@ li {
 }
 
 @media screen and (min-width: 300px) and (max-width:500px) {
-    nav {
+    .nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -114,7 +152,7 @@ li {
         padding: 40px;
         color: white;
         margin-top: 40px;
-        margin-left: -160px;
+        margin-left: -50px;
 
     }
 
@@ -127,6 +165,7 @@ li {
 @media screen and (min-width: 500px) and (max-width:800px) {
     .newhome-overall {
         width: 100%;
+        
         background-image: none;
         background-size: contain;
         background-position: right;
@@ -134,42 +173,45 @@ li {
 
 
     }
-   
-   
+ 
+   /* .animationimg{
+    position: relative;
+    top: 10%;
+   } */
 
-    .newpics2 {
-        /* margin-left: 40px; */
+    /* .newpics2 {
+        margin-left: 40px;
         position: absolute;
-        left: 50%;
+        left: 20%;
         top: 10%;
-    }
+    } */
     
-    .newpics3 {
+    /* .newpics3 {
         position: absolute;
-        left: 60%;
-        top: 60%;
+        left: 10%;
+        top: 10%;
     
     }
     .newpics1 {
         position: absolute;
         left: 80%;
         top: 40%;
-    
-    }
-    .newpics4 {
-        /* margin-left: 10px; */
+     */
+    /* } */
+    /* .newpics4 {
+        margin-left: 10px;
         position: absolute;
         left: 10%;
         top: 10%;
-        /* margin-right: -90px; */
-    }
+        margin-right: -90px;
+    } */
 }
 
 @media screen and (min-width: 800px) and (max-width:1200px) {
     .newhome-overall {
         width: 100%;
         background-image: url("../assets/images/bilson_new-removebg-preview.png");
-        height: 100%;
+        height: 100vh;
         background-size: contain;
         background-position: right;
         background-repeat: no-repeat;

@@ -9,13 +9,13 @@ function Contact() {
     return (
         // <div className="moving-contact">
         <div className="overall-content">
-             <div className="contacts-icons"> 
-            <Link className="iconscolor1" to="/"><FaHome /></Link>
+            <div className="contacts-icons">
+                <Link className="iconscolor1" to="/"><FaHome /></Link>
 
-          <Link className="iconscolor1" to="/about" ><FiAlertCircle /></Link>  
-            <IoMdContact />
-            <Link className="iconscolor1" to="/skills"> <GiSkills /></Link>
-            </div> 
+                <Link className="iconscolor1" to="/about" ><FiAlertCircle /></Link>
+                <IoMdContact />
+                <Link className="iconscolor1" to="/skills"> <GiSkills /></Link>
+            </div>
 
             <div className="continercontact">
 
